@@ -1,0 +1,35 @@
+{
+  "name": "add-document-found",
+  "version": "1.0.0",
+  "description": "service for add document found",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbreathe/lostme-backend.git"
+  },
+  "keywords": [
+    "service-1",
+    "nodejs"
+  ],
+  "author": "cristian vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbreathe/lostme-backend/issues"
+  },
+  "homepage": "https://github.com/devbreathe/lostme-backend#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
